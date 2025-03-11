@@ -15,7 +15,7 @@ public class C_Variable {
 		
 		int num; // 정수를 담는 그릇
 		char chr; // 문자를 담는 그릇
-		boolean bool; // 논리를 담는 그릇
+		boolean bool; // 논리를 담는 그릇 등등
 		
 		// 2. 변수 초기화(할당): 그릇에 데이터 넣기
 		// - 변수명 = 데이터값;
