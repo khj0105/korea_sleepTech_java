@@ -27,7 +27,7 @@ import otherPackage.*;
 class Modifier {}
 
 // 2. 접근 제어자 범위
-// public >  protected > (default) > private
+// public > protected > (default) > private
 
 // 1) private
 // : 같은 클래스 내에서만 접근 가능
@@ -65,13 +65,13 @@ class NotProtectedClass {
 		// 클래스 내부의 속성 사용이라 할지라도 protected 접근 제어자는
 		// : 상속받지 않는 경우 외부 패키지에서 접근 불가!
 		
-		//System.out.println(OtherClass.otherField);
-		//otherMethod();
+		// System.out.println(OtherClass.otherField);
+		// OtherClass.otherMethod();
 	}
 }
 
-// 4) public
-// : 클래스나 패키지의 위치와 상관없이 접근가능
+// 4) public 
+// : 클래스나 패키지의 위치와 상관없이 접근 가능
 
 public class A_Modifier {
 	
@@ -79,8 +79,8 @@ public class A_Modifier {
 	
 	public static void main(String[] args) {
 		PrivateClass privateClass = new PrivateClass();
-		//privateClass.myField;
-		//privateClass.myMethod();
+		// privateClass.myField;
+		// privateClass.myMethod();
 		// : 접근제어자는 가시성을 나타냄
 		// - 해당 클래스(PrivateClass) 내부에서만 접근 가능
 		
@@ -90,23 +90,10 @@ public class A_Modifier {
 		defaultClass.myMethod();
 		
 		ProtectedClass protectedClass = new ProtectedClass();
-		//protectedClass.myField = " 다른 패키지의 필드값 변경";
-//		다른 패키지의 필드
-//		다른 패키지의 메서드
+		// protectedClass.myField = "다른 패키지의 필드값 변경";
 		
-		PublicClass publicClass = new PublicClass();
+		PublicClass publicClass = new PublicClass();		
 		System.out.println(publicClass.publicField);
-		publicClass.publicMethod();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		publicClass.publicMethod();		
 	}
 }

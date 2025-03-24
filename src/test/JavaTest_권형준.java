@@ -3,30 +3,30 @@ package test;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Student{
-	String name;
-	int score;
-	
-	Student(String name, int score){
-		this.name = name;
-		this.score = score;
-		
-		Array student = new ArrayList<String>();
-	}
-}
+//class Student{
+//	String name;
+//	int score;
+//	
+//	Student(String name, int score){
+//		this.name = name;
+//		this.score = score;
+//		
+//		Array student = new ArrayList<String>();
+//	}
+//}
 
 public class JavaTest_권형준 {
 	public static void main(String[] args) {
-		// 1. 서술형
-		//- 기본 데이터 타입(Primitive Type)
-		int(정수형), int a = 10;
-		double(실수형), double b = 1.5;
-		float(실수형),  float c = 1.5F;
-		Long(정수형),  Long d = 1500L;
-		char(문자형), char e = '참';
-		boolean(참, 거짓) boolean f;
-		//- 참조 데이터 타입(Reference Type)
-		String(문자열) String g = "서술형 시험";
+//		// 1. 서술형
+//		//- 기본 데이터 타입(Primitive Type)
+//		int(정수형), int a = 10;
+//		double(실수형), double b = 1.5;
+//		float(실수형),  float c = 1.5F;
+//		Long(정수형),  Long d = 1500L;
+//		char(문자형), char e = '참';
+//		boolean(참, 거짓) boolean f;
+//		//- 참조 데이터 타입(Reference Type)
+//		String(문자열) String g = "서술형 시험";
 		
 		//  2. 코드 구현 문제
 		int num1 = 10;
